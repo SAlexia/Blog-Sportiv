@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0044cc; /* Culoare standard pentru header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white; /* Culoare standard pentru linkuri */
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffcc00; /* Culoare pentru linkuri la hover */
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sport-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sporturi-populare {
+    background-color: #e7f3fe;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0044cc; /* Culoare standard pentru butoane */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #ffcc00; /* Culoare pentru butoane la hover */
+}
+
+.contact-form {
+    background-color: #e7f3fe;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background-color: #0044cc; /* Culoare standard pentru butoane */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #ffcc00; /* Culoare pentru butoane la hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #0044cc; /* Culoare standard pentru footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Culori specifice pentru fiecare pagină */
+body.handbal {
+    background-color: #e0f7fa; /* Culoare pentru pagina de handbal */
+}
+
+body.baschet {
+    background-color: #ffe0b2; /* Culoare pentru pagina de baschet */
+}
+
+body.tenis {
+    background-color: #f1f8e9; /* Culoare pentru pagina de tenis */
+}
+
+body.inot {
+    background-color: #e1f5fe; /* Culoare pentru pagina de înot */
+}
+
+body.atletism {
+    background-color: #fce4ec; /* Culoare pentru pagina de atletism */
+}
+
+body.contact {
+    background-color: #f3e5f5; /* Culoare pentru pagina de contact */
+}
